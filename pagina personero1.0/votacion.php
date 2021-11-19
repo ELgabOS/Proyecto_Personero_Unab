@@ -3,29 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/votacion.css" rel="stylesheet" type="text/css">
     <title>Sistema de votacion estudiantil</title>
 </head>
 <body>
+
 <div id="galeria">
  <ol>
- <li> <img src="../resources/descarga.png" alt="">
+ <li> <img src="pictures/avatar_hombre1.jpg" alt="">
 
  </li>
-<li><input type="file" name="" id="">
-     
+<li>
+<img src="pictures/avatar_mujer1.jpg" alt="">
  </li>
- <li>camilo
+ <li><img src="pictures/avatar_mujer2.jpg" alt="">
      
 </li>
-<li>camilo
+<li><img src="pictures/avatar_hombre1.jpg" alt="">
      
 </li>
-<li>camilo
-     
-</li>
-<li>camilo
-     
-</li>
+
 
  </ol>
 
@@ -33,10 +30,12 @@
 
   <div id="lista">
 <form action="voto.php" method="POST">
-    <label for="1">Personero_1</label>
+  <label for="1">Personero_1</label>
  <input type="radio"  value="personero_1" name="personero" >
+ 
  <label for="1">Personero_2</label>
  <input type="radio"  value="personero_2" name="personero" > 
+ 
  <label for="1">Personero_3</label>
  <input type="radio"  value="personero_3" name="personero" > 
  <label for="1">Personero_4</label>

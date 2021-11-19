@@ -1,0 +1,65 @@
+*{box-sizing:border-box;
+}
+
+body{
+    background-color:#E8D2AE
+}
+
+body h1{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+#formulario_entrada{
+
+    color:brown;
+    width:300px;
+	padding:40px;
+    border: orange 2px solid;
+	border-radius:20px;
+	margin:auto;
+    margin-top: 70px;   
+    background-image:url("pictures/logo_unab_basico.jpg");
+}
+
+
+#formulario_entrada img{
+
+ width: 190px;
+ height: 190px;
+ margin:auto;
+ margin-top: 20px;
+ position: inherit;
+
+ border-radius:20px;
+}
+
+#formulario_entrada h2{
+
+    margin: left 100px; 
+    margin-top: 70px; 
+
+
+}
+
+form{
+	width:100px;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+	background-color:#CB8589;
+    background-image: url("logo_unab_basico.jpg");
+}
+
+form h2{
+
+    width:300px;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+    margin-top: 70px;
+}
+
+
